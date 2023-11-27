@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Outfit;
+  src: url(Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+h1 {
+  font-family: Outfit;
+  font-weight: 700;
+  font-size: x-large;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  width: 18rem;
+  margin: auto;
+}
+
+p {
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+  width: 16rem;
+  padding: 1rem;
+  margin: auto;
+}
+
+#qrCodeBox {
+  background-color: white;
+  width: 22rem;
+  margin: auto;
+  margin-top: 10rem;
+  border-radius: 1rem;
+  align-content: center;
+  padding-bottom: 2rem;
+}
+
+img {
+  width: 20rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
